@@ -1,0 +1,29 @@
+{
+  "name": "simpla-sass-structure",
+  "version": "1.0.0",
+  "description": "Simple SASS folder structure for smaller projects with npm package sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoduKodu/simple-sass-sctructure.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Rad Skotnicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoduKodu/simple-sass-sctructure/issues"
+  },
+  "homepage": "https://github.com/KoduKodu/simple-sass-sctructure#readme",
+  "devDependencies": {
+    "sass": "^1.56.2"
+  },
+  "scripts": {
+    "sass:watch": "sass --source-map -w sass/main.scss:style.css",
+    "sass:release": "sass --style=compressed sass/main.scss:style.css"
+  }
+}

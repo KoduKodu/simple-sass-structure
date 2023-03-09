@@ -1,5 +1,5 @@
 {
-  "name": "simpla-sass-structure",
+  "name": "simple-sass-structure",
   "version": "1.0.0",
   "description": "Simple SASS folder structure for smaller projects with npm package sass",
   "main": "index.js",

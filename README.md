@@ -1,5 +1,5 @@
 
-# Simple sass structure with npm compiler
+# Simple sass structure with compiler
 
 Simple SASS structure for smaller projects with sass node package.
 

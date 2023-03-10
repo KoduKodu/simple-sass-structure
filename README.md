@@ -35,7 +35,7 @@ A simple structure of scss folders and files created as a base to start projects
   our-project-name/
 ├── sass/
 │   ├── 01-base/
-│   │   ├── _breakpoins.scss
+│   │   ├── _breakpoints.scss
 │   │   ├── _colors.scss
 │   │   ├── _index.scss
 │   │   ├── _mixins.scss

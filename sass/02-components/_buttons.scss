@@ -1,0 +1,32 @@
+@mixin button-primary($bg) {
+    background: $bg;
+    &:hover {
+      background:darken($bg,8%);
+      transition: all 0.3s ease;
+    }
+    &:active {
+      background:darken($bg,25%);
+    } 
+}
+
+@mixin button-secondary($bg) {
+    background: $bg;
+    &:hover {
+        background:darken($bg,8%);
+        transition: all 0.3s ease;
+    }
+    &:active {
+        background:darken($bg,25%);
+    } 
+}
+
+@mixin button-tertiary($bg) {
+    background: $bg;
+    &:hover {
+        background:darken($bg,8%);
+        transition: all 0.3s ease;
+    }
+    &:active {
+        background:darken($bg,25%);
+    } 
+}
